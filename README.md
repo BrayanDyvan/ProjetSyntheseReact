@@ -116,3 +116,44 @@ L’application inclut également un formulaire de connexion avec validation, un
 Étape 3 : Lancer le serveur de développement
 
 - npm run dev
+
+# Gestion d’état avec Signals
+
+    Le fichier Signals.js contient plusieurs signaux utilisés dans toute l’application :
+    
+    personnage : liste One Piece
+    
+    zoomPerson : personnage One Piece sélectionné
+    
+    personnageNaruto : liste Naruto
+    
+    zoomPersonNaruto : personnage Naruto sélectionné
+    
+    Les signaux permettent une mise à jour automatique des composants sans utiliser useState.
+
+# Recherche
+
+- One Piece
+  Recherche par âge via la fonction Controller.tri().
+  
+- Naruto
+  Recherche par ID via la fonction Controller.tri1().
+  
+  Les résultats sont affichés ou masqués en manipulant les classes CSS.
+  
+# Zoom
+
+Lorsqu’un utilisateur clique sur une carte, le personnage est stocké dans un signal, puis la page Zoom affiche toutes ses informations détaillées.
+
+# Améliorations possibles
+    Pagination des listes
+    
+    Recherche avancée (nom, crew, clan…)
+    
+    Mode sombre
+    
+    Système de favoris
+    
+    Stockage local (localStorage)
+    
+    Tests unitaires
