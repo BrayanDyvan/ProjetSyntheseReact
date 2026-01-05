@@ -102,4 +102,17 @@ L’application inclut également un formulaire de connexion avec validation, un
   │
   └── Connexion/
       └── Connexion.jsx
+# Installation
 
+Étape 1 : Cloner le projet
+
+- git clone <url-du-projet>
+- cd <nom-du-dossier>
+
+Étape 2 : Installer les dépendances
+
+- npm install
+  
+Étape 3 : Lancer le serveur de développement
+
+- npm run dev
