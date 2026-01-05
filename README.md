@@ -12,6 +12,7 @@ Ce projet est une application React permettant d’explorer des personnages prov
 Les données sont récupérées via deux APIs externes, puis affichées sous forme de cartes interactives avec recherche, zoom détaillé et navigation complète.
 
 L’application inclut également un formulaire de connexion avec validation, une page d’accueil visuelle et une gestion d’état basée sur @preact/signals-react.
+
 # Fonctionnalités principales
 - One Piece
   
@@ -32,6 +33,7 @@ L’application inclut également un formulaire de connexion avec validation, un
     Page de zoom avec détails (jutsu, sexe, numéro ninja, etc.).
 
 - Connexion
+  
     Formulaire avec validation Bootstrap.
     
     Vérification dynamique des champs.
@@ -39,6 +41,65 @@ L’application inclut également un formulaire de connexion avec validation, un
     Bouton reset complet.
 
 - Navigation
+  
     Menu responsive avec React Router.
     
     Accès rapide aux pages One Piece, Naruto, Accueil et Connexion.
+  
+# Technologies utilisées
+
+- React
+
+- Vite
+
+- React Router
+
+- Bootstrap 5
+
+- FontAwesome
+
+- @preact/signals-react
+
+- APIs externes One Piece & Naruto
+
+# APIs utilisées
+
+- One Piece
+  
+    https://api.api-onepiece.com/v2/characters/fr
+
+- Naruto
+
+    https://dattebayo-api.onrender.com/characters
+
+# Structure du projet
+
+  src/
+  │── App.jsx
+  │── main.jsx
+  │── Controller.jsx
+  │── Signals.js
+  │
+  ├── Modele/
+  │   ├── OnePiece.js
+  │   └── Naruto.js
+  │
+  ├── NavBarPage/
+  │   └── NavBarPage.jsx
+  │
+  ├── PageDAcceuil/
+  │   └── PageDAcceuil.jsx
+  │
+  ├── PageListe1/
+  │   └── PageListe1.jsx
+  │
+  ├── PageListe2/
+  │   └── PageListe2.jsx
+  │
+  ├── Zoom/
+  │   ├── PageZoom1.jsx
+  │   └── PageZoom2.jsx
+  │
+  └── Connexion/
+      └── Connexion.jsx
+
