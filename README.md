@@ -14,6 +14,7 @@ Les données sont récupérées via deux APIs externes, puis affichées sous for
 L’application inclut également un formulaire de connexion avec validation, une page d’accueil visuelle et une gestion d’état basée sur @preact/signals-react.
 # Fonctionnalités principales
 - One Piece
+  
     Affichage des 20 premiers personnages de l’API.
 
     Recherche par âge.
@@ -22,21 +23,22 @@ L’application inclut également un formulaire de connexion avec validation, un
 
     Images personnalisées via un tableau statique.
 
-Naruto
-Affichage de tous les personnages de l’API.
+- Naruto
+  
+    Affichage de tous les personnages de l’API.
+    
+    Recherche par ID.
+    
+    Page de zoom avec détails (jutsu, sexe, numéro ninja, etc.).
 
-Recherche par ID.
+- Connexion
+    Formulaire avec validation Bootstrap.
+    
+    Vérification dynamique des champs.
+    
+    Bouton reset complet.
 
-Page de zoom avec détails (jutsu, sexe, numéro ninja, etc.).
-
-Connexion
-Formulaire avec validation Bootstrap.
-
-Vérification dynamique des champs.
-
-Bouton reset complet.
-
-Navigation
-Menu responsive avec React Router.
-
-Accès rapide aux pages One Piece, Naruto, Accueil et Connexion.
+- Navigation
+    Menu responsive avec React Router.
+    
+    Accès rapide aux pages One Piece, Naruto, Accueil et Connexion.
